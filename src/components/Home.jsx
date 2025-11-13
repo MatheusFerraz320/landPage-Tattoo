@@ -12,7 +12,7 @@ export default function Home() {
       id="home"
       className={`pt-24 h-screen relative flex items-center justify-center transition-opacity duration-1000 ${
         visible ? "opacity-100" : "opacity-0"
-      } bg-[url('images/background.png')] bg-cover bg-center bg-no-repeat`}
+      } bg-[url('images/backGroundHome.jpg')] bg-cover bg-center bg-no-repeat`}
     >
       {/* Camada esfumaçada com gradiente rosa */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#e91e63]/30 to-black/50 backdrop-blur-sm"></div>

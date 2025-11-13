@@ -23,7 +23,7 @@ export default function Services() {
 
   return (
     <div className="py-16 px-4 md:px-12 bg-[#fdfdf9]">
-      <h2 className="text-4xl font-bold text-center mb-10 animate-slideUp">
+      <h2 className="text-4xl font-bold text-center mb-10 animate-slideUp hover:text-[#e91e63] hover:scale-105 transition-all duration-300">
         Serviços
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 animate-fadeIn">

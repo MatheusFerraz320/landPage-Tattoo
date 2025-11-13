@@ -9,7 +9,9 @@ export default function Contact() {
 
   return (
     <div className="py-16 px-4 md:px-12 bg-[#fdfdf9] text-center">
-      <h2 className="text-4xl font-bold mb-6 animate-slideUp">Contato</h2>
+      <h2 className="text-4xl font-bold mb-6 animate-slideUp hover:text-[#e91e63] hover:scale-105 transition-all duration-300">
+        Contato
+      </h2>
 
       <p className="text-lg mb-8 animate-fadeIn">
         Entre em contato diretamente pelo WhatsApp para agendar sua sessão ou
