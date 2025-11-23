@@ -12,7 +12,7 @@ export default function Home() {
       id="home"
       className={`pt-24 h-screen relative flex items-center justify-center transition-opacity duration-1000 ${
         visible ? "opacity-100" : "opacity-0"
-      } bg-[url('images/cape.jpg')] bg-cover bg-center bg-no-repeat`}
+      } bg-[url('/images/cape.jpg')] bg-cover bg-center bg-no-repeat`}
     >
       {/* Overlay esfumaçado elegante */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80 backdrop-blur-sm"></div>
