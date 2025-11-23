@@ -2,7 +2,7 @@ export default function Sobre() {
   return (
     <section
       id="sobre"
-      className="py-20 px-6 md:px-16 bg-[#f5f0e6] text-gray-800 animate-fadeIn"
+      className="py-20 px-6 md:px-16 bg-[#fdfcfb] text-gray-900 animate-fadeIn"
     >
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
         {/* Imagem */}
@@ -16,20 +16,24 @@ export default function Sobre() {
 
         {/* Texto */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-4xl font-bold mb-6 animate-slideUp hover:text-[#e91e63] hover:scale-105 transition-all duration-300">
-            Sobre Mim
+          <h2 className="text-4xl font-bold mb-6 animate-slideUp hover:text-pink-600 hover:scale-105 transition-all duration-300">
+            Sobre
           </h2>
           <p className="text-lg leading-relaxed">
-            Sou <span className="text-[#e91e63] font-semibold">Fabricio</span>,
-            tatuador apaixonado por transformar ideias em arte na pele. Com anos
-            de experiência e dedicação, busco criar tatuagens únicas que
-            expressem a identidade de cada cliente.
+            Antes de tatuar, aprendi a observar. Meu trabalho nasce desse olhar,
+            atento, curioso, inquieto.
           </p>
           <p className="text-lg leading-relaxed mt-4">
-            Meu estúdio é um espaço seguro, criativo e acolhedor — onde cada
-            traço é feito com técnica, sensibilidade e respeito. Seja sua
-            primeira tattoo ou mais uma história na pele, estou aqui pra tornar
-            esse momento inesquecível.
+            Gosto do contraste: o movimento da cidade, a calma da natureza. Crio
+            tatuagens que respiram, cada traço carrega sua história e meu olhar.
+          </p>
+          <p className="text-lg leading-relaxed mt-4">
+            Tatuei durante anos em diferentes estilos, até encontrar um caminho
+            que fizesse sentido pra mim.
+          </p>
+          <p className="text-lg leading-relaxed mt-4">
+            Hoje, meu trabalho tem identidade, leveza e presença, e nasce sempre
+            de um encontro: entre o seu mundo e o meu.
           </p>
         </div>
       </div>

@@ -14,8 +14,8 @@ export default function Home() {
         visible ? "opacity-100" : "opacity-0"
       } bg-[url('images/backGroundHome.jpg')] bg-cover bg-center bg-no-repeat`}
     >
-      {/* Camada esfumaçada com gradiente rosa */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#e91e63]/30 to-black/50 backdrop-blur-sm"></div>
+      {/* Overlay esfumaçado elegante */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/80 backdrop-blur-sm"></div>
 
       {/* Conteúdo central */}
       <div className="relative z-10 text-center text-white">

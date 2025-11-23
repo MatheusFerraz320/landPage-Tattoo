@@ -2,8 +2,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Services from "./components/Services";
 import Contact from "./components/Contact";
+import Orcament from "./components/Orcament";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
       <section id="portfolio">
         <Portfolio />
       </section>
-      <section id="services">
-        <Services />
+      <section id="Orcament">
+        <Orcament />
       </section>
       <section id="contact">
         <Contact />
