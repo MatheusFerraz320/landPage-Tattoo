@@ -8,7 +8,7 @@ import Orcament from "./components/Orcament";
 function App() {
   return (
     <div className="bg-[#fdfdf9] text-gray-800 scroll-smooth">
-      <Navbar />
+      <NavBar />
       <section id="home">
         <Home />
       </section>
