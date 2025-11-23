@@ -8,7 +8,7 @@ export default function Sobre() {
         {/* Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/images/background.jpg"
+            src="/images/about.png"
             alt="Foto do tatuador"
             className="rounded-lg shadow-lg w-full h-auto object-cover animate-slideUp hover:scale-105 hover:shadow-xl transition-transform duration-300"
           />
