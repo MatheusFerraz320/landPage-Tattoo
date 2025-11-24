@@ -13,7 +13,6 @@ export default function Contact() {
       className="py-20 px-6 md:px-16 bg-gradient-to-r from-[#434343] via-[#2c3e50] to-[#000000] text-white"
     >
       <div className="max-w-5xl mx-auto">
-        {/* Bloco de contato */}
         <div className="text-center">
           <h2 className="text-4xl font-bold mb-6 animate-slideUp hover:text-red-500 transition-all duration-300 hover:scale-105">
             Contato
@@ -30,7 +29,6 @@ export default function Contact() {
             Falar no WhatsApp
           </a>
 
-          {/* Redes sociais */}
           <div className="mt-16 text-center">
             <h3 className="text-2xl font-semibold mb-6 animate-slideUp">
               Me acompanhe nas redes sociais
@@ -64,7 +62,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Bloco do mapa */}
         <div className="mt-20 text-center">
           <h3 className="text-3xl font-semibold mb-8 animate-slideUp transition-transform duration-300 hover:scale-105 hover:text-red-400">
             Venha ao estúdio
@@ -83,7 +80,6 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Footer aumentado */}
         <footer className="mt-24 py-10 text-base text-gray-400 text-center">
           © {new Date().getFullYear()} Fabricio Gattoni. Todos os direitos
           reservados.

@@ -5,7 +5,6 @@ export default function Sobre() {
       className="py-20 px-6 md:px-16 bg-[#fdfcfb] text-gray-900 animate-fadeIn"
     >
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
-        {/* Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
             src="/images/about.png"
@@ -14,7 +13,6 @@ export default function Sobre() {
           />
         </div>
 
-        {/* Texto */}
         <div className="w-full md:w-1/2 text-center md:text-left">
           <h2 className="text-4xl font-bold mb-6 animate-slideUp hover:text-pink-600 hover:scale-105 transition-all duration-300">
             Sobre

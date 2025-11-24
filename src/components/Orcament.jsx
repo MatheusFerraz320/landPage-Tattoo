@@ -16,7 +16,7 @@ export default function Orcament() {
             tatuagem que você prefere.
           </li>
           <li>
-            Me conte qual parte do corpo você pretende tatuar — braço, perna,
+            Me conte qual parte do corpo você pretende tatuar braço, perna,
             cabeça hahaha. O importante é ser claro e específico, pois alguns
             locais exigem atenção especial.
           </li>
