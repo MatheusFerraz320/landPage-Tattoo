@@ -1,4 +1,4 @@
-export default function Sobre() {
+export default function About({ name }) {
   return (
     <section
       id="sobre"
@@ -18,8 +18,8 @@ export default function Sobre() {
             Sobre
           </h2>
           <p className="text-lg leading-relaxed">
-            Antes de tatuar, aprendi a observar. Meu trabalho nasce desse olhar,
-            atento, curioso, inquieto.
+            Olá meu nome é {name} Antes de tatuar, aprendi a observar. Meu
+            trabalho nasce desse olhar, atento, curioso, inquieto.
           </p>
           <p className="text-lg leading-relaxed mt-4">
             Gosto do contraste: o movimento da cidade, a calma da natureza. Crio
